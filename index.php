@@ -1,6 +1,6 @@
-<!-- <?php
+<?php
 session_start();
-?> -->
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,16 +9,16 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Welcome | PG Life</title>
 
-<!--     <?php
+    <?php
     include "includes/head_links.php";
-    ?> -->
+    ?>
     <link href="css/home.css" rel="stylesheet" />
 </head>
 
 <body>
-<!--     <?php
+    <?php
     include "includes/header.php";
-    ?> -->
+    ?>
 
     <div class="banner-container">
         <h2 class="white pb-3">Happiness per Square Foot</h2>
@@ -74,11 +74,11 @@ session_start();
         </div>
     </div>
 
-<!--     <?php
+    <?php
     include "includes/signup_modal.php";
     include "includes/login_modal.php";
     include "includes/footer.php";
-    ?> -->
+    ?>
 
 </body>
 
